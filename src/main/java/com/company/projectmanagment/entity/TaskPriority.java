@@ -7,7 +7,9 @@ import javax.annotation.Nullable;
 
 public enum TaskPriority implements EnumClass<String> {
 
-    ;
+    LOW("A"),
+    MEDIUM("B"),
+    HIGHT("C");
 
     private String id;
 
